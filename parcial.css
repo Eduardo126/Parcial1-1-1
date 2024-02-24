@@ -1,0 +1,114 @@
+.titulo {
+  background-color: rgb(12, 15, 218);
+  padding: 30px;
+}
+
+.puff {
+  background-color: rgb(219, 16, 16);
+  padding: 30px;
+}
+
+.puff2 {
+  display: inline-block;
+  background-color: rgb(127, 255, 157);
+  padding: 5px 10px;
+}
+
+.puff3 {
+  display: inline-block;
+  background-color: rgb(153, 255, 127);
+  padding: 5px 10px;
+}
+
+@import url();
+
+body 
+
+.titulo {
+font-family: Arial, sans-serif;
+font-size: 36px;
+font-weight: bold;
+color: #09090a;
+text-align: center;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+h2 {
+font-family: Arial, sans-serif;
+font-size: 24px;
+font-weight: bold;
+color: #d51010;
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+p {
+font-family: Verdana, sans-serif;
+font-size: 16px;
+color: #0b0a0a;
+margin: 10px;
+}
+
+h1 {
+border: 1px solid #6412e7;
+border-radius: 5px;
+padding: 15px;
+margin: 10px;
+}
+
+.caja.azul {
+background-color: #0b57c8;
+}
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+.caja.roja {
+background-color: #e02121;
+}
+
+
+img {
+width: 300px;
+height: 300px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+.puff {
+font-family: Verdana, sans-serif;
+font-size: 14px;
+font-style: italic;
+color: #0a0a0a;
+margin: 10px;
+}
+
+@media (max-width: 768px) {
+.titulo {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 14px;
+  margin: 5px;
+}
+
+.caja {
+  padding: 10px;
+  margin: 5px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+}
+
+.puff {
+  font-size: 12px;
+  margin: 5px;
+}
+}
+
